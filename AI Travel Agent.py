@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from sk import openai_key
 from datetime import date, timedelta
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, ToolMessage, AIMessage
@@ -43,7 +42,7 @@ st.title(" AI Travel Agent")
 
 with st.sidebar:
     st.header("Trip Details")
-    api_key = openai_key
+    api_key = "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"
     city1=st.text_input("From Location",placeholder="e.g. Vellore")
     city = st.text_input("Destination City", placeholder="e.g. Banglore")
     
@@ -118,3 +117,4 @@ if api_key:
 else:
 
     st.info("Please enter your Groq API Key in the sidebar to start.")
+
