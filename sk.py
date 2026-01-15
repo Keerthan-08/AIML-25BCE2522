@@ -1,1 +1,0 @@
-openai_key="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"
