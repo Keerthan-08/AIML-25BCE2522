@@ -37,7 +37,7 @@ def get_weather_info(city: str, start_date: str, end_date: str):
 # Map for tools
 tools_map = {"get_weather_info": get_weather_info}
 
-# --- 2. UI SETUP ---
+#STREAMLIT INTERFACE
 st.set_page_config(page_title="AI Travel Agent")
 st.title(" AI Travel Agent")
 
@@ -116,4 +116,5 @@ if api_key:
     except Exception as e:
         st.error(f"Configuration error: {e}")
 else:
+
     st.info("Please enter your Groq API Key in the sidebar to start.")
