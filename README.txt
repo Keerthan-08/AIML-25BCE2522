@@ -38,7 +38,9 @@ pip install langchain-groq
 
 Running the file :
 
-Open the code in VS code and download the above packages in the terminal 
+Open the code in VS code and save with name of your choice and download the above packages in the terminal 
 After successful compilation ,
 Type the below command in VS Code terminal :
-python AI Travel Agent.py runserver
+streamlit run (The name of the file saved).py
+
+A website will open presenting a AI agentic travel adviser..
