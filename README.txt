@@ -19,6 +19,10 @@ This project demonstrates my ability to orchestrate LLM workflows, integrate RES
 I have kept api key public coz i couldnt keep in (.secret) folder coz it kept showing error.
 I hope it doesnt ruin the project
 
+Also as you can see I used only Weather as a tool .But also i used date range and forced into a tool in the last few lines in the program 
+That makes 2 tools used .
+And i hope it satisfies the core requirement.
+
 Package Installation processes :
 
 Note : I was using python 3.14.2,but the version is not well compatible with langchain which is good in 3.9 to 3.12
@@ -38,4 +42,4 @@ streamlit run (The name of the file saved).py
 A website will open presenting a AI agentic travel adviser..
 
 Only Task 1 is done ,because i only know some basics and i will look forward to explore the journey of learning mastering the skills .
-I prioritise Perfection over Quantity.
+I prioritise Perfection and Quality over Quantity.
